@@ -13,6 +13,7 @@ exports.connectToDb = async (req, res) => {
     database,
     user,
     password,
+    ssl: { rejectUnauthorized: false },
   });
 
   try {
