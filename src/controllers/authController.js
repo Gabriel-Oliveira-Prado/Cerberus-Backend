@@ -1,3 +1,5 @@
+/* Controlador de autenticação de usuários*/
+
 exports.login = async (req, res) => {
   const { email, senha } = req.body;
 

@@ -1,3 +1,4 @@
+/* Conectar o banco de dados para manipulação dele */
 const { Client } = require('pg');
 
 exports.connectToDb = async (req, res) => {
